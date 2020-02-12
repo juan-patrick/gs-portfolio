@@ -1,0 +1,21 @@
+.landing {
+	display: flex;
+	width: 100%;
+	color: #ffffff;
+	background: #151515;
+}
+
+.main {
+	display: flex;
+	height: auto;
+	width: 100%;
+	background: #f3f3f3;
+}
+
+.side {
+	display: flex;
+	width: 600px;
+	height: 453px;
+	padding: 144px 78px 144px 50px;
+	background: #151515;
+}
