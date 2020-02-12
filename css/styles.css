@@ -1,8 +1,6 @@
 .landing {
 	display: flex;
 	width: 100%;
-	color: #ffffff;
-	background: #151515;
 }
 
 .main {
@@ -19,11 +17,21 @@
 
 .side {
 	display: flex;
-	width: 600px;
+	justify-content: left;
+	align-items: center;
+	width: 700px;
 	height: 600px;
-	background: #151515;
 }
 
-.side-content {
-	padding: 144px 78px 144px 50px;
+.side.spotlight {
+	padding: 0 78px;
+}
+
+.side .spotlight-content {
+	width: 300px;
+	height: 350px;
+}
+
+.spotlight-content p {
+	margin: 20px 0;
 }
