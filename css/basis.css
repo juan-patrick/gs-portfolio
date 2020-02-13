@@ -1,29 +1,28 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:300,400,500,600,700&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700&display=swap");
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	-webkit-font-smoothing: antialiased !important;
-	-moz-osx-font-smoothing: antialiased !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: antialiased !important;
 }
 
 *::selection {
-	background: #999;
-	color: #fff;
+    background: #999;
+    color: #fff;
 }
 
 html,
 body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	-webkit-font-smoothing: antialiased !important;
-	-moz-osx-font-smoothing: antialiased !important;
-	font-family: "Open Sans";
-	font-size: 15px;
-	color: #363636;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: antialiased !important;
+    font-family: "Open Sans";
+    font-size: 15px;
+    color: #363636;
 }
 
 h1,
@@ -32,59 +31,71 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Raleway";
-	font-weight: 300;
-	text-transform: uppercase;
-	letter-spacing: 2px;
+    font-family: "Raleway";
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.display {
+	font-size: 40px;
+	display: inline-block;
 }
 
 .title {
-	font-size: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.text {
+	font-size: 16px;
+	font-weight: 300;
+    margin-bottom: 5px;
 }
 
 .logo {
-	font-size: 23px;
+    font-size: 23px;
 }
 
 .material-icons.large {
-	font-size: 60px;
+    font-size: 60px;
 }
 
 button,
 a,
 input {
-	font-family: "Raleway";
-	font-size: 15px;
-	padding: 0;
-	margin: 0;
+    font-family: "Raleway";
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
 }
 
 .btn {
-	display: inline-block;
-	padding: 15px 45px;
-	cursor: pointer;
-	letter-spacing: 2.2px;
-	text-align: center;
-	text-transform: uppercase;
-	text-decoration: none;
-	border-radius: 360px;
-	border: 1px solid rgba(0, 0, 0, 0);
-	transition: 0.4s all;
-	
+    display: inline-block;
+    padding: 15px 45px;
+    cursor: pointer;
+    letter-spacing: 2.2px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 360px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: 0.4s all;
 }
 
 .primary {
-	color: #fff;
-	background: #151515;
+    color: #fff;
+    background: #151515;
 }
 
 .btn.btn-outline {
-	color: #151515;
-	background: #fff;
+    color: #151515;
+    background: #fff;
 }
 
 .btn-outline:hover {
-	border: 1px solid #fff;
-	color: #fff;
-	background: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    color: #fff;
+    background: rgba(0, 0, 0, 0);
 }

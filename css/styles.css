@@ -1,37 +1,49 @@
 .landing {
-	display: flex;
-	width: 100%;
+    display: flex;
+    width: 100%;
 }
 
 .main {
-	display: flex;
-	height: auto;
-	width: 100%;
-	background: #f3f3f3;
+    display: flex;
+    height: auto;
+    width: 100%;
+    background: #f3f3f3;
 }
 
 .main img {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .side {
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	width: 700px;
-	height: 600px;
-}
-
-.side.spotlight {
-	padding: 0 78px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 700px;
+    height: auto;
+    padding: 0 70px;
 }
 
 .side .spotlight-content {
-	width: 300px;
-	height: 350px;
+    display: block;
+    align-self: center;
+    width: 90%;
+    height: 350px;
 }
 
 .spotlight-content p {
-	margin: 20px 0;
+    margin: 20px 0;
+}
+
+.side .side-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    display: inline-block;
+    margin: 15px 0;
 }
