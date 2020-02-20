@@ -2,22 +2,49 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	width: 100%;
-	height: 400px;
-	padding: 0 100px;
+	min-height: 500px;
+	height: auto;
+	padding: 30px 100px;
+}
+
+.budget-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: auto 0;
 }
 
 .budget-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
+	height: 100%;
+	margin-bottom: auto;
+}
+
+.budget-description {
+	width: 100%;
+}
+
+.budget-description .text-row {
+	width: 80%;
 }
 
 .budget-form {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	align-items: flex-end;
+	align-items: flex-start;
 	flex-wrap: wrap;
 	width: 100%;
+}
+
+.budget-form .title {
+	margin: 10px;
 }
 
 .budget-inputs {
@@ -35,7 +62,6 @@
 	display: flex;
 	font-family: Raleway;
 	width: 100%;
-	
 }
 
 .budget-form .input {
@@ -44,6 +70,7 @@
 
 .budget-form button {
 	margin-right: 10px;
+	align-self: flex-end;
 }
 @media (max-width: 1000px) {
 	.budget-landing {
@@ -53,5 +80,8 @@
 	}
 	.budget-form {
 		margin: 20px 0;
+	}
+	.budget-content .text-row {
+		width: 100%;
 	}
 }
