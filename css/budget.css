@@ -81,7 +81,13 @@
 	.budget-form {
 		margin: 20px 0;
 	}
+	.budget-content{
+		flex-wrap: wrap;
+	}
 	.budget-content .text-row {
 		width: 100%;
+	}
+	.budget-description{
+		margin: 50px 0 10px 0;
 	}
 }
