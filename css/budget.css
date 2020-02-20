@@ -4,17 +4,54 @@
 	align-items: center;
 	width: 100%;
 	height: 400px;
-	padding: 0 30px;
+	padding: 0 100px;
+}
+
+.budget-content {
+	width: 100%;
 }
 
 .budget-form {
 	display: flex;
-	justify-content: left;
-	align-items: center;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
 	flex-wrap: wrap;
 	width: 100%;
 }
 
+.budget-inputs {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.budget-form input {
+	display: flex;
+	flex: 1;
+}
+
+.budget-form textarea {
+	display: flex;
+	font-family: Raleway;
+	width: 100%;
+	
+}
+
 .budget-form .input {
 	margin: 10px;
+}
+
+.budget-form button {
+	margin-right: 10px;
+}
+@media (max-width: 1000px) {
+	.budget-landing {
+		height: auto;
+		flex-wrap: wrap;
+		padding: 100px 100px;
+	}
+	.budget-form {
+		margin: 20px 0;
+	}
 }
